@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    background: linear-gradient(90deg, rgb(0, 255, 157) 0%, #00ffd0 35%, rgb(0, 187, 255) 100%);
+}
+.header{
+    margin-top: 0;
+    width:100%;
+    background-color: rgb(251, 255, 0);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 150px;
+    padding:0;
+}
+.info{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(0, 220, 81);
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+    padding:0;
+}
+.info p{
+    color: rgb(0, 102, 255);
+}
+.info h1{
+    font-size:30px;
+    text-align: center;
+}
+.footer{
+    margin-top:10px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color:rgb(0, 237, 126);
+    font-family: sans-serif;
+    color:rgb(204, 0, 0);
+    bottom: 0;
+}
+
+
+.header h4{
+    color: rgb(0, 132, 247);
+}
+.scroll-text{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(54, 0, 142);
+    background-color: rgb(0, 255, 72);
+}
+.footer{
+    text-shadow: 0 0 3px red, 0 0 5px blue;
+
+}
+.Menu{
+    background-color:rgb(0, 145, 255);
+    height:40px;
+}
+.Menu ul{
+    margin:0;
+}
+.Menu li{
+    display:inline-block;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.Menu ul a{
+    background-color: rgb(255, 0, 89);
+    text-decoration: none;
+    margin-bottom: 5px;
+    color:rgb(101, 1, 101);
+    font-family: cooper black;
+    padding:5px;
+    border-radius: 4px;
+}
+.Menu ul a:hover{
+    background-color: rgb(162, 4, 59);
+}
+.Menu li a:active{
+    position: relative;
+    top: 3px;;
+}
+
+
+
+
+
+
+.one ul{
+    margin:0;
+}
+.one li{
+    display:inline-block;
+    margin-top: 30px;
+    padding-right: 30px;
+    margin-left: -10px;
+}
+.one ul a{
+
+    color:#00ffa6;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding:5px;
+    border-radius: 4px;
+    font-size:15px;
+    font-family:b davat;
+    width:100px;
+    height:50px;
+    border-width:1px;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    box-shadow: 2px 10px 14px 4px #0000008a;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(#b35999, #994062);
+    text-align: center;
+}
+
+.one li a:active{
+    position: relative;
+    top: -3px;;
+}
